@@ -1,0 +1,8 @@
+body{font-family:system-ui,Segoe UI,Roboto,Arial; background:#f7fafc; color:#0f172a; padding:20px;}
+.container{max-width:900px;margin:0 auto;}
+.video-wrap{position:relative;width:640px;height:480px;background:#000;}
+video, canvas{position:absolute; left:0; top:0; width:640px; height:480px; border-radius:8px;}
+.controls{margin-top:10px;display:flex;gap:10px;align-items:center;}
+#status{margin-left:10px;}
+.logs{margin-top:14px;}
+#events{max-height:200px;overflow:auto;background:#fff;padding:10px;border-radius:6px;}
