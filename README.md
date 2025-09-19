@@ -46,8 +46,13 @@ npm start
 
 ### 1️⃣ Clone the repository
 ```bash
-cd video-proctoring
+cd face video
 
 
 Now open:
 👉 http://localhost:4000
+http://localhost:4000/ → should show your public/index.html
+
+http://localhost:4000/api/health → { "ok": true }
+
+http://localhost:4000/api/report → downloads a CSV file.
